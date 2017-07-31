@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hpsgts_web:war">
+    <output-path>$PROJECT_DIR$/hpsgts_web/target</output-path>
+    <root id="archive" name="hpsgts_web.war">
+      <element id="artifact" artifact-name="hpsgts_web:war exploded" />
+    </root>
+  </artifact>
+</component>
