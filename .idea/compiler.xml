@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hpsgts_crm_common" />
+        <module name="hpsgts_crm_web" />
         <module name="hpsgts_web" />
       </profile>
     </annotationProcessing>
@@ -14,6 +15,7 @@
       <module name="hpsgts-parent" target="1.8" />
       <module name="hpsgts_common" target="1.5" />
       <module name="hpsgts_crm_common" target="1.8" />
+      <module name="hpsgts_crm_web" target="1.8" />
       <module name="hpsgts_parent" target="1.5" />
       <module name="hpsgts_web" target="1.8" />
     </bytecodeTargetLevel>

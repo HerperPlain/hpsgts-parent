@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/hpsgts-parent.iml" filepath="$PROJECT_DIR$/hpsgts-parent.iml" />
       <module fileurl="file://$PROJECT_DIR$/hpsgts_crm_common/hpsgts_crm_common.iml" filepath="$PROJECT_DIR$/hpsgts_crm_common/hpsgts_crm_common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hpsgts_crm_web/hpsgts_crm_web.iml" filepath="$PROJECT_DIR$/hpsgts_crm_web/hpsgts_crm_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/hpsgts_web/hpsgts_web.iml" filepath="$PROJECT_DIR$/hpsgts_web/hpsgts_web.iml" />
     </modules>
   </component>
