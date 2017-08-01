@@ -11,11 +11,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="hpsgts-parent" target="1.5" />
+      <module name="hpsgts-parent" target="1.8" />
       <module name="hpsgts_common" target="1.5" />
       <module name="hpsgts_crm_common" target="1.8" />
       <module name="hpsgts_parent" target="1.5" />
-      <module name="hpsgts_web" target="1.5" />
+      <module name="hpsgts_web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

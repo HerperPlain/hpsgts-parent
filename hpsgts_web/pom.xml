@@ -1,16 +1,16 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-    <parent>
-        <artifactId>hpsgts_parent</artifactId>
-        <groupId>com.hpsgts</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>hpsgts_web</artifactId>
     <packaging>war</packaging>
     <name>hpsgts_web Maven Webapp</name>
     <url>http://maven.apache.org</url>
-
+    <parent>
+        <groupId>com.hpsgts</groupId>
+        <artifactId>hpsgts-parent</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -18,8 +18,11 @@
             <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-
-
+        <dependency>
+            <groupId>com.hpsgts</groupId>
+            <artifactId>hpsgts_crm_common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>hpsgts_web</finalName>
